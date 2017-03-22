@@ -25,14 +25,6 @@ jar {
     }
 }
 
-uploadArchives {
-    repositories {
-       flatDir {
-           dirs 'repos'
-       }
-    }
-}
-
 // Add src-extra build target
 sourceSets {
   main {
